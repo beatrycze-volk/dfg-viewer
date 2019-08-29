@@ -16,7 +16,41 @@
         </nav>
       </div>
 
-      <div class="toc-wrapper">
+      <div class="tab">
+          <button class="tablinks" onclick="openLink(event, 'toc-wrapper')">London</button>
+          <button class="tablinks" onclick="openLink(event, 'search-wrapper')">Paris</button>
+          <button class="tablinks" onclick="openLink(event, 'fulltext-wrapper')">Tokyo</button>
+          <button class="tablinks" onclick="openLink(event, 'download-wrapper')">Tokyo</button>
+          <button class="tablinks" onclick="openLink(event, 'image-manipulation-wrapper')">Tokyo</button>
+          <button class="tablinks" onclick="openLink(event, 'social-wrapper')">Tokyo</button>
+      </div>
+
+      <div id="toc-wrapper" class="toc-wrapper">
+          <f:cObject typoscriptObjectPath="plugin.tx_dlf_tableofcontents" />
+          <div class="offcanvas-toggle" title="<f:translate key='toc' extensionName='dfgviewer' />"></div>
+      </div>
+
+      <div id="search-wrapper" class="search-wrapper">
+          <f:cObject typoscriptObjectPath="plugin.tx_dlf_tableofcontents" />
+          <div class="offcanvas-toggle" title="<f:translate key='search' extensionName='dfgviewer' />"></div>
+      </div>
+
+      <div id="fulltext-wrapper" class="fulltext-wrapper">
+          <f:cObject typoscriptObjectPath="plugin.tx_dlf_tableofcontents" />
+          <div class="offcanvas-toggle" title="<f:translate key='toc' extensionName='dfgviewer' />"></div>
+      </div>
+
+      <div id="download-wrapper" class="download-wrapper">
+          <f:cObject typoscriptObjectPath="plugin.tx_dlf_tableofcontents" />
+          <div class="offcanvas-toggle" title="<f:translate key='toc' extensionName='dfgviewer' />"></div>
+      </div>
+
+      <div id="image-manipulation-wrapper" class="image-manipulation-wrapper">
+          <f:cObject typoscriptObjectPath="plugin.tx_dlf_tableofcontents" />
+          <div class="offcanvas-toggle" title="<f:translate key='toc' extensionName='dfgviewer' />"></div>
+      </div>
+
+      <div id="social-wrapper" class="social-wrapper">
           <f:cObject typoscriptObjectPath="plugin.tx_dlf_tableofcontents" />
           <div class="offcanvas-toggle" title="<f:translate key='toc' extensionName='dfgviewer' />"></div>
       </div>
