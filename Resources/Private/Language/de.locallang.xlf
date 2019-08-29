@@ -17,6 +17,10 @@
 				<source><![CDATA[Show single page]]></source>
 				<target><![CDATA[Einzelseitenansicht]]></target>
 			</trans-unit>
+			<trans-unit id="download" approved="yes">
+				<source><![CDATA[Download]]></source>
+				<target><![CDATA[Herunterladen]]></target>
+			</trans-unit>
 			<trans-unit id="download.leftPage" approved="yes">
 				<source><![CDATA[Download left page]]></source>
 				<target><![CDATA[Linke Seite herunterladen]]></target>
@@ -37,6 +41,10 @@
 				<source><![CDATA[Fullscreen Mode]]></source>
 				<target><![CDATA[Vollansicht]]></target>
 			</trans-unit>
+			<trans-unit id="fulltext" approved="yes">
+				<source><![CDATA[Fulltext]]></source>
+				<target><![CDATA[Volltext]]></target>
+			</trans-unit>
 			<trans-unit id="fulltext.no_fulltext_double" approved="yes">
 				<source><![CDATA[No fulltext in double page mode.]]></source>
 				<target><![CDATA[Keine Volltexte in der Doppelseitenansicht.]]></target>
@@ -48,6 +56,10 @@
 			<trans-unit id="gridpage.preview" approved="yes">
 				<source><![CDATA[Thumbnail Preview]]></source>
 				<target><![CDATA[Vorschaubilder]]></target>
+			</trans-unit>
+			<trans-unit id="image.manipulation" approved="yes">
+				<source><![CDATA[Image manipulation]]></source>
+				<target><![CDATA[Bildbearbeitung]]></target>
 			</trans-unit>
 			<trans-unit id="metadata" approved="yes">
 				<source><![CDATA[Metadata]]></source>
@@ -68,6 +80,14 @@
 			<trans-unit id="provider.no_local_presentation" approved="yes">
 				<source><![CDATA[No local presentation available]]></source>
 				<target><![CDATA[Keine lokale Präsentation verfügbar]]></target>
+			</trans-unit>
+			<trans-unit id="search" approved="yes">
+				<source><![CDATA[Search]]></source>
+				<target><![CDATA[Suchen]]></target>
+			</trans-unit>
+			<trans-unit id="share" approved="yes">
+				<source><![CDATA[Share]]></source>
+				<target><![CDATA[Share]]></target>
 			</trans-unit>
 			<trans-unit id="toc" approved="yes">
 				<source><![CDATA[Table of Content]]></source>

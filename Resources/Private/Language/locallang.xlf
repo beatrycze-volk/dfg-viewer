@@ -14,6 +14,9 @@
 		<trans-unit id="double.singlePageView">
 			<source>Show single page</source>
 		</trans-unit>
+		<trans-unit id="download">
+			<source>Download</source>
+		</trans-unit>
 		<trans-unit id="download.leftPage">
 			<source>Download left page</source>
 		</trans-unit>
@@ -25,6 +28,9 @@
 		</trans-unit>
 		<trans-unit id="download.work">
 			<source>Download whole work</source>
+		</trans-unit>
+		<trans-unit id="fulltext">
+			<source>Fulltext</source>
 		</trans-unit>
 		<trans-unit id="fulltext.no_fulltext_gridpage">
 			<source>No fulltext in gridpage mode.</source>
@@ -38,6 +44,9 @@
 		<trans-unit id="gridpage.preview">
 			<source>Thumbnail Preview</source>
 		</trans-unit>
+		<trans-unit id="image.manipulation">
+			<source>Image manipulation]</source>
+		</trans-unit>
 		<trans-unit id="provider.local_presentation">
 			<source>Show in local context</source>
 		</trans-unit>
@@ -49,6 +58,12 @@
 		</trans-unit>
 		<trans-unit id="provider.email_provider">
 			<source>Email to data provider</source>
+		</trans-unit>
+		<trans-unit id="search">
+			<source>Search</source>
+		</trans-unit>
+		<trans-unit id="share">
+			<source>Share</source>
 		</trans-unit>
 		<trans-unit id="website.last_updated">
 			<source>Last updated</source>
