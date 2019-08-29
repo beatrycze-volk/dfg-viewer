@@ -22,7 +22,10 @@
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 
+use \TYPO3\CMS\Core\Imaging\IconProvider\FontawesomeIconProvider;
+use \TYPO3\CMS\Core\Imaging\IconRegistry;
 use \TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+use \TYPO3\CMS\Core\Utility\GeneralUtility;
 
 if (!defined ('TYPO3_MODE')) 	die ('Access denied.');
 
@@ -39,3 +42,13 @@ ExtensionManagementUtility::addPItoST43($_EXTKEY, 'Classes/Plugins/Sru/Sru.php',
 
 // Register eID handlers.
 $GLOBALS['TYPO3_CONF_VARS']['FE']['eID_include']['tx_dfgviewer_sru_eid'] = 'EXT:'.$_EXTKEY.'/Classes/Plugins/Sru/SruEid.php';
+
+// Register font awesome icons
+/** @var IconRegistry $iconRegistry */
+$iconRegistry = GeneralUtility::makeInstance(
+    IconRegistry::class
+);
+$iconRegistry->registerIcon(
+    'align-justify',
+    FontawesomeIconProvider::class
+);
