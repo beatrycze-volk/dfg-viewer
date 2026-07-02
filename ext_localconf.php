@@ -46,3 +46,5 @@ defined('TYPO3') or die();
     [
     ]
 );
+
+$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['default'] = 'EXT:dfgviewer/Configuration/RTE/Default.yaml';
