@@ -117,8 +117,7 @@
                     opacity: 0;
                     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
                     li {
-                        a,
-                        span {
+                        a {
                             position: relative;
                             color: #fff;
                             display: block;
@@ -137,18 +136,6 @@
                                 background: url(../Images/controlIcons.svg) no-repeat 0 0;
                                 background-size: auto 120px;
                             }
-                            &.tx-dlf-tools-pdf-work:before {
-                                background-position: -360px -40px;
-                            }
-                            &.tx-dlf-tools-pdf-page:before {
-                                background-position: -320px -40px;
-                            }
-                            &.tx-dlf-tools-fulltextdownload:before {
-                                background-position: -280px -40px;
-                            }
-                            &.tx-dlf-tools-fulltext-not-available:before {
-                                background-position: -280px -40px;
-                            }
                             &.local-presentation:before {
                                 background-position: -440px -80px;
                             }
@@ -164,28 +151,19 @@
                             &.persistence-page:before {
                                 background-position: -320px -80px;
                             }
-                            &.tx-dlf-tools-modeldownload:before,
-                            &.tx-dlf-tools-imagedownload:before {
-                                background-position: -320px -40px;
-                            }
-                            &.tx-dlf-tools-imagedownload {
-                                // override opacity from span
-                                // because tx-dlf-tools-imagedownload is the only one here with span
-                                opacity: 1;
-                                // move over the empty space the hidden `::before` left:
-                                a {
-                                    position: relative;
-                                    left: -40px;
-                                }
-                            }
-                            &.tx-dlf-tools-modeldownload {
-                                opacity: 1;
-                            }
                         }
                         span {
-                            opacity: 0.5;
-                            ::before {
-                                display: none;
+                            &.tx-dlf-tools-pdf-work:before {
+                                background-position: -360px -40px;
+                            }
+                            &.tx-dlf-tools-modeldownload:before,
+                            &.tx-dlf-tools-imagedownload:before,
+                            &.tx-dlf-tools-pdf-page:before {
+                                background-position: -320px -40px;
+                            }
+                            &.tx-dlf-tools-fulltextdownload:before,
+                            &.tx-dlf-tools-fulltext-not-available:before {
+                                background-position: -280px -40px;
                             }
                         }
                     }
