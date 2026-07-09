@@ -147,7 +147,7 @@ $(document).ready(function() {
 
     // Copy some controls for mobile (page select, fullscreen)
     $('.provider').append('<div class="mobile-controls" />');
-    $('.view-functions .tx-dlf-navigation-pages form, .view-functions .tx-dlf-tools-fullscreen a, .fulltext-search-toggle').clone().appendTo('.provider .mobile-controls');
+    $('.view-functions .tx-dlf-navigation-pages form, .view-functions .tx-dlf-tools-fullscreen, .fulltext-search-toggle').clone().appendTo('.provider .mobile-controls');
 
     // Shorten mobile meta title
     let shortenMobileMetaElement = $('.provider dl.mobile-meta dd.tx-dlf-title a');
